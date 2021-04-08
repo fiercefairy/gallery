@@ -11,14 +11,12 @@
         .event Now Available! Visit: <a :href="galleries[name].eventURL" target="hen">{{galleries[name].eventURL}}</a>
     row(container, :gutter="12")
       column(v-for="item in galleryData[name]" :xs="12", :md="4", :lg="3")
-        .grid-group-image
+        router-link(:to="`${name}/${item.objectId}`")
           img(v-if="item.token_info.formats[0].mimeType!=='video/mp4'", :src="`https://cloudflare-ipfs.com/ipfs/${item.token_info.artifactUri.replace('ipfs://','')}`")
           video(v-if="item.token_info.formats[0].mimeType==='video/mp4'", :src="`https://ipfs.io/ipfs/${item.token_info.artifactUri.replace('ipfs://','')}`", loop, autoplay)
-        .grid-group-meta
           h4.title {{item.token_info.name}}
-        article.grid-group-text
-          p.desc(v-if="!galleries[name].description") {{item.token_info.description}}
-          p Check Availability: <a class="link" target="hen" :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`'>OBJKT {{item.objectId}}<span class="token_id"></span></a>
+        p.desc(v-if="!galleries[name].description") {{item.token_info.description}}
+        p Check Availability: <a class="link" target="hen" :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`'>OBJKT {{item.objectId}}<span class="token_id"></span></a>
         hr
 </template>
 

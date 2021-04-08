@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Gallery from "../views/Gallery.vue";
+import Item from "../views/Item.vue";
 
 const galleries = require("../data/galleries.json");
 const galleryData = require("../data/gallery_data.json");
@@ -16,7 +17,7 @@ const routes = [
   }
 ];
 
-Object.keys(galleryData).forEach(name =>
+Object.keys(galleryData).forEach(name => {
   routes.push({
     path: `/${name}`,
     name,
@@ -26,8 +27,18 @@ Object.keys(galleryData).forEach(name =>
       galleryData
     },
     component: Gallery
-  })
-);
+  });
+  routes.push({
+    path: `/${name}/:id`,
+    name,
+    props: {
+      name,
+      galleries,
+      galleryData
+    },
+    component: Item
+  });
+});
 
 const router = new VueRouter({
   base: process.env.BASE_URL,
