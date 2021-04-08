@@ -8,7 +8,7 @@
           .date Sales Event on {{new Date(galleries[name].eventTime).toLocaleDateString()}} at {{new Date(galleries[name].eventTime).toLocaleTimeString()}}
           span {{ `${timeObj.d} days, ${timeObj.h} hours, ${timeObj.m} minutes, ${timeObj.s} seconds` }}
       template(v-slot:finish)
-        span Sales are live! Visit: {{galleries[name].eventURL}}
+        .event Now Available! Visit: <a :href="galleries[name].eventURL" target="hen">{{galleries[name].eventURL}}</a>
     row(container, :gutter="12")
       column(v-for="item in galleryData[name]" :xs="12", :md="4", :lg="3")
         .grid-group-image
@@ -18,7 +18,7 @@
           h4.title {{item.token_info.name}}
         article.grid-group-text
           p.desc(v-if="!galleries[name].description") {{item.token_info.description}}
-          p Check Availability: <a class="link" :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`'>OBJKT {{item.objectId}}<span class="token_id"></span></a>
+          p Check Availability: <a class="link" target="hen" :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`'>OBJKT {{item.objectId}}<span class="token_id"></span></a>
         hr
 </template>
 
