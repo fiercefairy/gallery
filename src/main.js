@@ -5,6 +5,16 @@ import router from "./router";
 import { Row, Column, Hidden } from "vue-grid-responsive";
 import vueAwesomeCountdown from "vue-awesome-countdown";
 
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+library.add(faHome);
+library.add(faTwitter);
+
+Vue.component("font-awesome-icon", FontAwesomeIcon);
+
 Vue.use(vueAwesomeCountdown, "vac");
 
 Vue.component("row", Row);
