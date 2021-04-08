@@ -3,6 +3,9 @@ import App from "./App.vue";
 import router from "./router";
 
 import { Row, Column, Hidden } from "vue-grid-responsive";
+import vueAwesomeCountdown from "vue-awesome-countdown";
+
+Vue.use(vueAwesomeCountdown, "vac");
 
 Vue.component("row", Row);
 Vue.component("column", Column);
