@@ -7,11 +7,12 @@ import vueAwesomeCountdown from "vue-awesome-countdown";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faHome } from "@fortawesome/free-solid-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 library.add(faHome);
 library.add(faTwitter);
+library.add(faInstagram);
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
