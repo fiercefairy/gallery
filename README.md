@@ -1,6 +1,6 @@
-# CleanNFT Digital Art Galleries for Adam Eivy
+# CleanNFT Digital Art Galleries for Ilya Eivy
 
-https://adameivy.com/gallery
+https://fiercefairy.github.io/gallery/
 
 Built using vue-cli
 
