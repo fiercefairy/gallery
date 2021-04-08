@@ -19,14 +19,15 @@ const getData = require("./lib/getData");
   if (!galleryData[galleryName]) galleryData[galleryName] = [];
   if (!galleries[galleryName])
     galleries[galleryName] = {
-      main: object_id,
-      items: [object_id]
+      main: Number(object_id),
+      items: [Number(object_id)]
     };
-  if (galleries[galleryName].items.includes(Number(object_id)))
+  else if (galleries[galleryName].items.includes(Number(object_id)))
     return console.log("already added");
   const data = await getData(object_id);
   galleryData[galleryName].push(data);
-  galleries[galleryName].items.push(object_id);
+  if (!galleries[galleryName].items.includes(Number(object_id)))
+    galleries[galleryName].items.push(Number(object_id));
 
   fs.writeFileSync(
     `${__dirname}/../src/data/gallery_data.json`,
@@ -36,5 +37,6 @@ const getData = require("./lib/getData");
     `${__dirname}/../src/data/galleries.json`,
     JSON.stringify(galleries)
   );
+
   console.log("data files written!");
 })();

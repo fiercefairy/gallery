@@ -5,6 +5,7 @@
  */
 
 const fs = require("fs");
+const galleries = require("../src/data/galleries.json");
 const galleryData = require("../src/data/gallery_data.json");
 
 const galleryName = process.argv[2];
@@ -15,9 +16,17 @@ console.log(`removing ${object_id} from ${galleryName}`);
 galleryData[galleryName] = galleryData[galleryName].filter(
   obj => obj.objectId !== object_id
 );
+galleries[galleryName].items = galleries[galleryName].items.filter(
+  id => id !== Number(object_id)
+);
 
 fs.writeFileSync(
   `${__dirname}/../src/data/gallery_data.json`,
   JSON.stringify(galleryData)
 );
-console.log("data file written!");
+
+fs.writeFileSync(
+  `${__dirname}/../src/data/galleries.json`,
+  JSON.stringify(galleries)
+);
+console.log("data files written!");
