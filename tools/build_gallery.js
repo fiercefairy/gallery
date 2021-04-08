@@ -1,22 +1,14 @@
 /**
  * fetch data for each object in src/data/galleries.json
+ *
+ * node tools/build_gallery.js
  */
-
-const axios = require("axios");
 const fs = require("fs");
 const galleries = require("../src/data/galleries.json");
 
 const galleryData = require("../src/data/gallery_data.json");
 
-const getData = async id => {
-  const response = await axios.post(
-    "https://51rknuvw76.execute-api.us-east-1.amazonaws.com/dev/objkt",
-    {
-      objkt_id: `${id}`
-    }
-  );
-  return response.data.result;
-};
+const getData = require("./lib/getData");
 
 (async () => {
   for (let galleryName in galleries) {
