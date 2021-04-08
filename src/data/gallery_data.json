@@ -1,6 +1,41 @@
 {
   "pretender": [
     {
+      "key": "exprtsNvyzGdc7bCo4d1B1BfNZXnJhnJxda3BQUUN6R8GFPAmVzT8i",
+      "objectId": "23132",
+      "ipfsHash": "QmYzmV61Sx26aSSrWq6LdWsHFo3Bczemfzu4csGXH9sQzo",
+      "token_id": 23132,
+      "total_amount": 20,
+      "token_info": {
+        "name": "Pretender: Hero Journey - Issue 01",
+        "description": "Pretender is a GAN dreaming up new comic books. The hero journey is the classic cycle of call to adventure and returning home with greater knowledge and gifts. dimensions: 512x512; size: 23,927,861 bytes",
+        "tags": [
+          "comics",
+          "comic-books",
+          "gan",
+          "dreaming",
+          "creative",
+          "watercolor",
+          "storytelling",
+          "hero-journey"
+        ],
+        "symbol": "OBJKT",
+        "artifactUri": "ipfs://QmPsGx4CGnuFmNq5jwroSxFC4q7sCHkoRfaWM58kqcWV3Q",
+        "displayUri": "",
+        "creators": ["tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9"],
+        "formats": [
+          {
+            "uri": "ipfs://QmPsGx4CGnuFmNq5jwroSxFC4q7sCHkoRfaWM58kqcWV3Q",
+            "mimeType": "image/gif"
+          }
+        ],
+        "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "decimals": 0,
+        "isBooleanAmount": false,
+        "shouldPreferSymbol": false
+      }
+    },
+    {
       "objectId": "25115",
       "ipfsHash": "Qme9wN54oBSZeP1gZwcXCUKHv67dy1994hdS5oPuX3UM1h",
       "swaps": [
