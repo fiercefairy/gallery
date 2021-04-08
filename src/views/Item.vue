@@ -46,5 +46,7 @@ h1
 img, video
   max-width:100%
 .desc
-  text-align: left
+  text-align: center
+  max-width: 500px
+  margin: auto
 </style>
