@@ -13,6 +13,11 @@ const routes = [
   {
     path: "/",
     name: "Home",
+    props: {
+      name,
+      galleries,
+      galleryData
+    },
     component: Home
   }
 ];

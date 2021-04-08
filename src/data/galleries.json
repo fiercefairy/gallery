@@ -19,10 +19,11 @@
       972
     ]
   },
+  "panels": { "main": 957, "items": [957, 8405, 6867, 6868, 6865] },
   "pretender": {
     "description": "Pretender is a GAN dreaming up new comic books after reading Ascender, Descender, and Coda. The hero journey is the classic cycle of call to adventure and returning home with greater knowledge and gifts.",
-    "main": 23132,
-    "items": [23132, 25115, 25117, 25129, 25149, 25158, 25167]
+    "main": 25129,
+    "items": [25115, 25117, 25129, 25149, 25158, 25167]
   },
   "prosopagnosia": {
     "eventTime": 1618167600000,

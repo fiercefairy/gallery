@@ -5,6 +5,7 @@
  */
 
 const fs = require("fs");
+const galleries = require("../src/data/galleries.json");
 const galleryData = require("../src/data/gallery_data.json");
 
 const galleryName = process.argv[2];
@@ -16,12 +17,24 @@ const getData = require("./lib/getData");
 
 (async () => {
   if (!galleryData[galleryName]) galleryData[galleryName] = [];
+  if (!galleries[galleryName])
+    galleries[galleryName] = {
+      main: object_id,
+      items: [object_id]
+    };
+  if (galleries[galleryName].items.includes(Number(object_id)))
+    return console.log("already added");
   const data = await getData(object_id);
   galleryData[galleryName].push(data);
+  galleries[galleryName].items.push(object_id);
 
   fs.writeFileSync(
     `${__dirname}/../src/data/gallery_data.json`,
     JSON.stringify(galleryData)
   );
-  console.log("data file written!");
+  fs.writeFileSync(
+    `${__dirname}/../src/data/galleries.json`,
+    JSON.stringify(galleries)
+  );
+  console.log("data files written!");
 })();

@@ -1,23 +1,20 @@
 <template lang="pug">
   .home
     row(container, :gutter="12")
-      column.gallery(:xs="6", :s="6", :md="4", :lg="3", :xl="4")
-        router-link(to="/paintings")
-          img(src="https://cloudflare-ipfs.com/ipfs/QmcdBh76zHixZPCFkQ5aZPPmUV8DAg6MRNx5MLQnjbMNwB")
-          .title Paintings
-      column.gallery(:xs="6", :s="6", :md="4", :lg="3", :xl="4")
-        router-link(to="/pretender")
-          img(src="https://cloudflare-ipfs.com/ipfs/QmPsGx4CGnuFmNq5jwroSxFC4q7sCHkoRfaWM58kqcWV3Q")
-          .title Pretender
-      column.gallery(:xs="6", :s="6", :md="4", :lg="3", :xl="4")
-        router-link(to="/prosopagnosia")
-          img(src="https://cloudflare-ipfs.com/ipfs/QmfGpCHBLVGfYSzJwKFXJdcS6H1tXN2mqgtkYaN8jvkhcN")
-          .title Prosopagnosia
+      column.gallery(v-for="(value, name) in galleries", :xs="6", :s="6", :md="4", :lg="3", :xl="4")
+        router-link(:to="`/${name}`")
+          //- p {{galleryData[name].find(i=>i.objectId===`${value.main}`)}}
+          img(:src="`https://cloudflare-ipfs.com/ipfs/${galleryData[name].find(i=>i.objectId===`${value.main}`).token_info.artifactUri.replace('ipfs://','')}`")
+          .title {{name.charAt(0).toUpperCase() + name.slice(1)}}
 </template>
 
 <script>
 export default {
-  name: 'Home'
+  name: 'Home',
+  props: {
+    galleryData: Object,
+    galleries: Object
+  }
 }
 </script>
 
