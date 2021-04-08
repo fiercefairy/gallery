@@ -1,7 +1,6 @@
 <template lang='pug'>
-  .item
-    img(v-if="item.token_info.formats[0].mimeType!=='video/mp4'", :src="`https://cloudflare-ipfs.com/ipfs/${item.token_info.artifactUri.replace('ipfs://','')}`")
-    video(v-if="item.token_info.formats[0].mimeType==='video/mp4'", :src="`https://ipfs.io/ipfs/${item.token_info.artifactUri.replace('ipfs://','')}`", loop, autoplay)
+  .fullitem
+    Obj(:mime="item.token_info.formats[0].mimeType", :hash="item.token_info.artifactUri.replace('ipfs://','')")
     h4.title {{item.token_info.name}}
     p.desc {{item.token_info.description}}
     p Check Availability: <a class="link" target="hen" :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`'>OBJKT {{item.objectId}}<span class="token_id"></span></a>
@@ -10,8 +9,12 @@
 
 
 <script>
+import Obj from '../components/Obj.vue'
 export default {
   name: 'Item',
+  components: {
+    Obj
+  },
   computed: {
     item: function () {
       return this.galleryData[this.name].find(i=>i.objectId===this.$route.params.id)
@@ -25,6 +28,16 @@ export default {
 }
 </script>
 
+
+<style lang="sass">
+/* global styles */
+.fullitem
+  img, video
+    max-width: 100%
+  iframe, model-viewer
+    width: 100%
+    height: 700px
+</style>
 <style lang="sass" scoped>
 h1
   margin: .3em
