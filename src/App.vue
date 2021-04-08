@@ -51,7 +51,7 @@ body
   .links
     list-style: none
     padding:0
-    margin: .5em 0 0 0
+    margin: .5em 0 0 .5em
     display: inline-block
     vertical-align: top
     a
