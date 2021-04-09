@@ -42,7 +42,10 @@ body
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
   text-align: center
-
+  background-image: url('./assets/bg.png')
+  background-repeat: no-repeat
+  background-attachment: fixed
+  background-position: right bottom
 
 #logo
   img
