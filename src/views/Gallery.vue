@@ -13,9 +13,12 @@
       column(v-for="item in thumbs" :xs="12", :md="4", :lg="3")
         router-link(:to="`${name}/${item.objectId}`")
           Obj(:mime="item.token_info.formats[0].mimeType", :hash="item.token_info.artifactUri.replace('ipfs://','')")
-          h4.title {{item.token_info && item.token_info.name}}
+          h4.title.hue-rotate {{item.token_info && item.token_info.name}}
         p.desc(v-if="!galleries[name].description") {{item.token_info.description}}
-        p Check Availability: <a class="link" target="hen" :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`'>OBJKT {{item.objectId}}<span class="token_id"></span></a>
+        p
+          span Check Availability:&nbsp;
+          a.link.hue-rotate(target="hen", :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`') OBJKT {{item.objectId}}
+            span.token_id
         hr
 </template>
 

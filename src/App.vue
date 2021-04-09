@@ -6,18 +6,18 @@
           #logo
             img(alt="Adam Eivy" src="./assets/logo.png")
             ul.links
-              li: a(href="https://twitter.com/antic", target="twitter")
+              li: a.hue-rotate(href="https://twitter.com/antic", target="twitter")
                 font-awesome-icon(:icon="{ prefix: 'fab', iconName: 'twitter' }")
-              li: a(href="https://instagram.com/atomantic", target="instagram")
+              li: a.hue-rotate(href="https://instagram.com/atomantic", target="instagram")
                 font-awesome-icon(:icon="{ prefix: 'fab', iconName: 'instagram' }")
         column(:xs="7", :sm="9", :md="9", :lg="10", :xl="10")
           h1 Digital Art Galleries of Adam Eivy
       #nav
         router-link(to="/")
-          font-awesome-icon(:icon="{ prefix: 'fas', iconName: 'home' }")
+          font-awesome-icon.hue-rotate(:icon="{ prefix: 'fas', iconName: 'home' }")
         span(v-for="(value, name) in galleries" :key="name")
           .split |
-          router-link(:to="'/'+name") {{name.charAt(0).toUpperCase() + name.slice(1)}}
+          router-link.hue-rotate(:to="'/'+name") {{name.charAt(0).toUpperCase() + name.slice(1)}}
     #content
       router-view(galleries, galleryData)
 </template>
@@ -73,9 +73,28 @@ header
     text-align: center
 a
   font-weight: bold
-  color: #e47f67
+  color: #e4a767
 a.router-link-exact-active
   color: #ddf6fd
   text-decoration: none
 
+.hue-rotate
+  -webkit-animation: filter-animation 60s infinite
+  animation: filter-animation 60s infinite
+
+@-webkit-keyframes filter-animation
+  0%
+    -webkit-filter: hue-rotate(0deg)
+  50%
+    -webkit-filter: hue-rotate(360deg)
+  100%
+    -webkit-filter: hue-rotate(0deg)
+
+@keyframes filter-animation
+  0%
+    filter: hue-rotate(0deg)
+  50%
+    filter: hue-rotate(360deg)
+  100%
+    filter: hue-rotate(0deg)
 </style>
