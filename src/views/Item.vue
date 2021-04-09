@@ -3,7 +3,9 @@
     Obj(:mime="item.token_info.formats[0].mimeType", :hash="item.token_info.artifactUri.replace('ipfs://','')")
     h4.title {{item.token_info.name}}
     p.desc {{item.token_info.description}}
-    p Check Availability: <a class="link" target="hen" :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`'>OBJKT {{item.objectId}}<span class="token_id"></span></a>
+    p Check Availability:&nbsp;
+      a.link.hue-rotate(target="hen", :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`') OBJKT {{item.objectId}}
+        span.token_id
 
 </template>
 
