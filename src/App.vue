@@ -12,20 +12,20 @@
                 font-awesome-icon(:icon="{ prefix: 'fab', iconName: 'instagram' }")
         column(:xs="7", :sm="9", :md="9", :lg="10", :xl="10")
           h1 Digital Art Galleries of Adam Eivy
-      #nav
-        router-link(to="/")
-          font-awesome-icon.hue-rotate(:icon="{ prefix: 'fas', iconName: 'home' }")
-        span(v-for="(value, name) in galleries" :key="name")
-          .split |
-          router-link.hue-rotate(:to="'/'+name") {{name.charAt(0).toUpperCase() + name.slice(1)}}
+          Nav(:galleries="galleries")
+      Nav(:galleries="galleries")
     #content
       router-view(galleries, galleryData)
 </template>
 
 
 <script>
+import Nav from './components/Nav'
 export default {
   name: 'App',
+  components: {
+    Nav,
+  },
   props: {
     galleries: Object,
     galleryData: Object
@@ -60,17 +60,29 @@ body
     a
       line-height:1.2em
 
-header
-  h1
-    margin: 0
-    text-align: right
-#nav
+.nav
+  display: block
   text-align: right
-  margin: 0 0 1em 0
   .split
     display: inline-block
     width: 1em
     text-align: center
+
+header
+  h1
+    margin: 0
+    text-align: right
+  > .nav
+    display: none
+
+/** in smaller resolutions, drop the nav below the header */
+@media only screen and (max-width: 767px)
+  .nav
+    display: none
+  header
+    > .nav
+      display: block
+
 a
   font-weight: bold
   color: #e4a767

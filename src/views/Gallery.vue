@@ -4,7 +4,7 @@
     p(v-if="galleries[name].description") {{galleries[name].description}}
     vac(v-if="galleries[name].eventTime", :end-time="galleries[name].eventTime")
       template(v-slot:process="{ timeObj }")
-        .event
+        .event.hue-rotate
           .date Sales Event on {{new Date(galleries[name].eventTime).toLocaleDateString()}} at {{new Date(galleries[name].eventTime).toLocaleTimeString()}}
           span {{ `${timeObj.d} days, ${timeObj.h} hours, ${timeObj.m} minutes, ${timeObj.s} seconds` }}
       template(v-slot:finish)
@@ -59,6 +59,7 @@ export default {
 <style lang="sass" scoped>
 h1
   margin: .3em
+  color: #7b7b7b
 .gallery
   text-align: center
   .event
