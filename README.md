@@ -42,12 +42,28 @@ node tools/rm_item.js prosopagnosia 26001
 
 In a few minutes, your site will be at https://{YOUR_GITHUB_USERNAME}.github.io/gallery
 
+# Event Countdown
+
+If you want to setup an event clock for your gallery, edit `./src/data/galleries.json` add add an `eventTime` as a unix timestamp (https://www.unixtimestamp.com) for the moment in time that the event will begin and `eventURL` that will display as a link to the event location when the countdown finishes.
+
+Example:
+
+```
+"prosopagnosia": {
+    "eventTime": 1618167600000,
+    "eventURL": "https://www.hicetnunc.xyz/tz/tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+    "description": "\"I can't remember her face, but when she looked at me, it felt like this.\"",
+    "main": 25769,
+    "items": [25769, 25896, 25900, 25918, 25948, 25998, 26001, 26002]
+  }
+```
+
 # Working with the codebase
 
 - This site is built using Vue.js, SCSS, and pug
 - Text and social media links are in `config.json`
-- `./data/galleries.json` can be edited to rearrange items, to set new main thumbnails, add event countdowns, and gallery level descriptions.
-- `./data/gallery_data.json` is the downloaded object data from hicetnunc.xyz
+- `./src/data/galleries.json` can be edited to rearrange items, to set new main thumbnails, add event countdowns, and gallery level descriptions.
+- `./src/data/gallery_data.json` is the downloaded object data from hicetnunc.xyz
 
 ### Local testing
 

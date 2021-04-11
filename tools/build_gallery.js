@@ -27,7 +27,7 @@ const getData = require("./lib/getData");
 
   fs.writeFileSync(
     `${__dirname}/../src/data/gallery_data.json`,
-    JSON.stringify(galleryData)
+    JSON.stringify(galleryData, null, 2)
   );
   console.log("data file written!");
 })();

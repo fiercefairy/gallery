@@ -1,1 +1,37 @@
-{"paintings":{"main":11825,"items":[11825,990,957,1444,984,996,980,988,1142,992,969,971,3006,972,28628]},"panels":{"main":957,"items":[957,8405,6867,6868,6865]},"pretender":{"description":"Pretender is a GAN dreaming up new comic books after reading Ascender, Descender, and Coda. The hero journey is the classic cycle of call to adventure and returning home with greater knowledge and gifts.","main":23132,"items":[23132,25115,25117,25129,25149,25158,25167]},"process":{"main":3007,"items":[11829,1228,2299,3007]},"program":{"main":3942,"items":[10148,9355,3942,17117]},"prosopagnosia":{"eventTime":1618167600000,"eventURL":"https://www.hicetnunc.xyz/tz/tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9","description":"\"I can't remember her face, but when she looked at me, it felt like this.\"","main":25769,"items":[25769,25896,25900,25918,25948,25998,26001,26002]}}
+{
+  "paintings": {
+    "main": 11825,
+    "items": [
+      11825,
+      990,
+      957,
+      1444,
+      984,
+      996,
+      980,
+      988,
+      1142,
+      992,
+      969,
+      971,
+      3006,
+      972,
+      28628
+    ]
+  },
+  "panels": { "main": 957, "items": [957, 8405, 6867, 6868, 6865] },
+  "pretender": {
+    "description": "Pretender is a GAN dreaming up new comic books after reading Ascender, Descender, and Coda. The hero journey is the classic cycle of call to adventure and returning home with greater knowledge and gifts.",
+    "main": 23132,
+    "items": [23132, 25115, 25117, 25129, 25149, 25158, 25167]
+  },
+  "process": { "main": 3007, "items": [11829, 1228, 2299, 3007] },
+  "program": { "main": 3942, "items": [10148, 9355, 3942, 17117] },
+  "prosopagnosia": {
+    "eventTime": 1618167600000,
+    "eventURL": "https://www.hicetnunc.xyz/tz/tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+    "description": "\"I can't remember her face, but when she looked at me, it felt like this.\"",
+    "main": 25769,
+    "items": [25769, 25896, 25900, 25918, 25948, 25998, 26001, 26002]
+  }
+}
