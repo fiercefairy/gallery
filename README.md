@@ -31,9 +31,14 @@ node tools/add_item.js prosopagnosia 26001
 node tools/rm_item.js prosopagnosia 26001
 ```
 
-8. Commit your changes: `git add -A .; git commit -m 'initial gallery setup'`
-9. Push to your own fork: `git push -u origin main`
-10. Deploy to github pages: `npm run deploy`
+8. Change the favicon.ico files
+
+- You can upload a new image to a favicon creator like this one: https://favicon.io
+- Download the images and overwrite the files in `./public/`
+
+9. Commit your changes: `git add -A .; git commit -m 'initial gallery setup'`
+10. Push to your own fork: `git push -u origin main`
+11. Deploy to github pages: `npm run deploy`
 
 In a few minutes, your site will be at https://{YOUR_GITHUB_USERNAME}.github.io/gallery
 
