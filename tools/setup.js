@@ -32,13 +32,15 @@ const prompts = require("prompts");
       message: `Instagram handle (e.g. ${config.instagram})?`
     },
     {
-      type: "text",
-      name: "replaced",
+      type: "confirm",
+      initial: true,
+      name: "replacedLogo",
       message: `Did you replace ./src/assets/logo.png with a new logo image?`
     },
     {
-      type: "text",
-      name: "replaced",
+      type: "confirm",
+      initial: true,
+      name: "replacedBG",
       message: `(optional) Did you replace ./src/assets/bg.png with a new background image?`
     }
   ]);
@@ -49,7 +51,10 @@ const prompts = require("prompts");
 
   fs.writeFileSync(`${__dirname}/../src/data/gallery_data.json`, "{}");
   fs.writeFileSync(`${__dirname}/../src/data/galleries.json`, "{}");
-  fs.writeFileSync("../config.json", JSON.stringify(config, null, 2));
+  fs.writeFileSync(
+    `${__dirname}/../config.json`,
+    JSON.stringify(config, null, 2)
+  );
   console.log(
     "Ready to go. Now commit and push this and run: `npm run deploy`"
   );

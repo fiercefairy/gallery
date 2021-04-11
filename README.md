@@ -1,5 +1,7 @@
 # Hic Et Nunc Digital Art Galleries
 
+This repo creates a set of gallery pages based on IPFS hosted hicetnunc.xyz NFT token artworks:
+
 https://adameivy.com/gallery
 
 # Forking / Making it Your Own
@@ -9,7 +11,9 @@ https://adameivy.com/gallery
 3. install deps: `npm install`
 4. run the setup script `npm run setup`
 
-Built using vue-cli
+# Working with the codebase
+
+This site is built using Vue.js, SCSS, and pug
 
 ### Compiles and hot-reloads for development
 
@@ -28,7 +32,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
