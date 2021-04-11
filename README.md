@@ -1,14 +1,15 @@
-# CleanNFT Digital Art Galleries for Adam Eivy
+# Hic Et Nunc Digital Art Galleries
 
 https://adameivy.com/gallery
 
+# Forking / Making it Your Own
+
+1. fork this repo in github
+2. clone your fork
+3. install deps: `npm install`
+4. run the setup script `npm run setup`
+
 Built using vue-cli
-
-## Project setup
-
-```
-npm install
-```
 
 ### Compiles and hot-reloads for development
 

@@ -35,7 +35,7 @@ Object.keys(galleryData).forEach(name => {
   });
   routes.push({
     path: `/${name}/:id`,
-    name,
+    name: `${name}_id`,
     props: {
       name,
       galleries,

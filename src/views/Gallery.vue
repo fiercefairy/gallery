@@ -10,7 +10,7 @@
       template(v-slot:finish)
         .event Now Available! Visit: <a :href="galleries[name].eventURL" target="hen">{{galleries[name].eventURL}}</a>
     row(container, :gutter="12")
-      column(v-for="item in thumbs" :xs="12", :md="4", :lg="3")
+      column(v-for="item in thumbs" :xs="12", :md="4", :lg="3", :key="item.objectId")
         router-link(:to="`${name}/${item.objectId}`")
           Obj(:mime="item.token_info.formats[0].mimeType", :hash="item.token_info.artifactUri.replace('ipfs://','')")
           h4.title.hue-rotate {{item.token_info && item.token_info.name}}

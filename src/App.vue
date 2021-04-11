@@ -4,14 +4,14 @@
       row(container, :gutter="12")
         column(:xs="5", :sm="3", :md="3", :lg="2", :xl="2")
           #logo
-            img(alt="Adam Eivy" src="./assets/logo.png")
+            img(:alt="logoAlt" src="./assets/logo.png")
             ul.links
-              li: a.hue-rotate(href="https://twitter.com/antic", target="twitter")
+              li(v-if="twitter"): a.hue-rotate(:href="`https://twitter.com/${twitter}`", target="twitter")
                 font-awesome-icon(:icon="{ prefix: 'fab', iconName: 'twitter' }")
-              li: a.hue-rotate(href="https://instagram.com/atomantic", target="instagram")
+              li(v-if="instagram"): a.hue-rotate(:href="`https://instagram.com/${instagram}`", target="instagram")
                 font-awesome-icon(:icon="{ prefix: 'fab', iconName: 'instagram' }")
         column(:xs="7", :sm="9", :md="9", :lg="10", :xl="10")
-          h1 Digital Art Galleries of Adam Eivy
+          h1 {{title}}
           Nav(:galleries="galleries")
       Nav(:galleries="galleries")
     #content
@@ -21,11 +21,14 @@
 
 <script>
 import Nav from './components/Nav'
+const config = require('../config.json');
+console.log({config})
 export default {
   name: 'App',
   components: {
     Nav,
   },
+  data: ()=>(config),
   props: {
     galleries: Object,
     galleryData: Object
