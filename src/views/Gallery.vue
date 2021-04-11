@@ -18,8 +18,10 @@
           Obj(:mime="item.token_info.formats[0].mimeType", :hash="item.token_info.artifactUri.replace('ipfs://','')")
           h4.title.hue-rotate {{item.token_info && item.token_info.name}}
         p.desc(v-if="!galleries[name].description") {{item.token_info.description}}
+        //- p.editions {{item.total_amount}}
         p
-          span Check Availability:&nbsp;
+          span(v-if="item.swaps && item.swaps.length") {{ lowestPrice(item.swaps) }} XTZ&nbsp;
+          span(v-else) SOLD OUT:&nbsp;
           a.link.hue-rotate(target="hen", :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`') OBJKT {{item.objectId}}
             span.token_id
         hr
@@ -32,6 +34,14 @@ export default {
   name: 'Gallery',
   components: {
     Obj
+  },
+  methods: {
+    lowestPrice: function (swaps) {
+      return swaps.reduce((sum, s)=>{
+            if(Number(s.xtz_per_objkt) < sum) sum = Number(s.xtz_per_objkt);
+            return sum;
+          }, Infinity) / 1000000;
+    }
   },
   props: {
     name: String,

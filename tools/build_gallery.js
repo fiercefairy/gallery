@@ -13,7 +13,8 @@ const getData = require("./lib/getData");
 (async () => {
   for (let galleryName in galleries) {
     const items = galleries[galleryName].items;
-    if (!galleryData[galleryName]) galleryData[galleryName] = [];
+    // clear out the current gallery data
+    galleryData[galleryName] = [];
     console.log(
       `fetching data for gallery ${galleryName} (${items.length} items)`
     );
