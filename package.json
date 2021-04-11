@@ -6,6 +6,7 @@
     "setup": "node ./tools/setup.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "fetch": "node tools/build_gallery.js",
     "deploy": "node gh-pages-deploy.js",
     "lint": "vue-cli-service lint"
   },

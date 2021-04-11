@@ -58,6 +58,18 @@ Example:
   }
 ```
 
+# Update Cached Data
+
+```
+npm run fetch
+```
+
+Then you can commit and re-deploy:
+
+```
+git add -A .; git commit -m 'update data'; git push; npm run deploy
+```
+
 # Working with the codebase
 
 - This site is built using Vue.js, SCSS, and pug
