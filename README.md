@@ -64,6 +64,7 @@ Example:
 - Text and social media links are in `config.json`
 - `./src/data/galleries.json` can be edited to rearrange items, to set new main thumbnails, add event countdowns, and gallery level descriptions.
 - `./src/data/gallery_data.json` is the downloaded object data from hicetnunc.xyz
+- Primary CSS styles for background-color, text-color, etc, can be found in `./src/App.vue`
 
 ### Local testing
 
