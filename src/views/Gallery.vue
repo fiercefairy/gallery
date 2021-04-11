@@ -6,7 +6,10 @@
       template(v-slot:process="{ timeObj }")
         .event.hue-rotate
           .date Sales Event on {{new Date(galleries[name].eventTime).toLocaleDateString()}} at {{new Date(galleries[name].eventTime).toLocaleTimeString()}}
-          span {{ `${timeObj.d} days, ${timeObj.h} hours, ${timeObj.m} minutes, ${timeObj.s} seconds` }}
+          span(v-if="timeObj.d!=='0'") {{ `${timeObj.d} days, ` }}
+          span(v-if="timeObj.h!=='0'") {{ `${timeObj.h} hours, `}}
+          span(v-if="timeObj.m!=='0'") {{ `${timeObj.m} minutes, ` }}
+          span {{ `${timeObj.s} seconds` }}
       template(v-slot:finish)
         .event Now Available! Visit: <a :href="galleries[name].eventURL" target="hen">{{galleries[name].eventURL}}</a>
     row(container, :gutter="12")
