@@ -22,11 +22,11 @@ galleries[galleryName].items = galleries[galleryName].items.filter(
 
 fs.writeFileSync(
   `${__dirname}/../src/data/gallery_data.json`,
-  JSON.stringify(galleryData)
+  JSON.stringify(galleryData, null, 2)
 );
 
 fs.writeFileSync(
   `${__dirname}/../src/data/galleries.json`,
-  JSON.stringify(galleries)
+  JSON.stringify(galleries, null, 2)
 );
 console.log("data files written!");

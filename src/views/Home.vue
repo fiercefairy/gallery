@@ -1,7 +1,7 @@
 <template lang="pug">
   .home
     row(container, :gutter="12")
-      column.gallery(v-for="(value, name) in thumbs", :xs="6", :s="6", :md="4", :lg="3", :xl="4")
+      column.gallery(v-for="(value, name) in thumbs", :xs="6", :s="6", :md="4", :lg="3", :xl="4", :key="name")
         router-link(:to="`/${name}`")
           img(v-if="value.formats[0].mimeType!=='video/mp4'", :src="`https://cloudflare-ipfs.com/ipfs/${value.artifactUri.replace('ipfs://','')}`")
           video(v-if="value.formats[0].mimeType==='video/mp4'", :src="`https://ipfs.io/ipfs/${value.artifactUri.replace('ipfs://','')}`", loop, autoplay)

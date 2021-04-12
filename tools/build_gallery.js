@@ -13,7 +13,8 @@ const getData = require("./lib/getData");
 (async () => {
   for (let galleryName in galleries) {
     const items = galleries[galleryName].items;
-    if (!galleryData[galleryName]) galleryData[galleryName] = [];
+    // clear out the current gallery data
+    galleryData[galleryName] = [];
     console.log(
       `fetching data for gallery ${galleryName} (${items.length} items)`
     );
@@ -27,7 +28,7 @@ const getData = require("./lib/getData");
 
   fs.writeFileSync(
     `${__dirname}/../src/data/gallery_data.json`,
-    JSON.stringify(galleryData)
+    JSON.stringify(galleryData, null, 2)
   );
   console.log("data file written!");
 })();

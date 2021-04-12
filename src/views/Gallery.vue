@@ -6,17 +6,22 @@
       template(v-slot:process="{ timeObj }")
         .event.hue-rotate
           .date Sales Event on {{new Date(galleries[name].eventTime).toLocaleDateString()}} at {{new Date(galleries[name].eventTime).toLocaleTimeString()}}
-          span {{ `${timeObj.d} days, ${timeObj.h} hours, ${timeObj.m} minutes, ${timeObj.s} seconds` }}
+          span(v-if="timeObj.d!=='0'") {{ `${timeObj.d} days, ` }}
+          span(v-if="timeObj.h!=='00'") {{ `${timeObj.h} hours, `}}
+          span(v-if="timeObj.m!=='00'") {{ `${timeObj.m} minutes, ` }}
+          span {{ `${timeObj.s} seconds` }}
       template(v-slot:finish)
         .event Now Available! Visit: <a :href="galleries[name].eventURL" target="hen">{{galleries[name].eventURL}}</a>
     row(container, :gutter="12")
-      column(v-for="item in thumbs" :xs="12", :md="4", :lg="3")
+      column(v-for="item in thumbs" :xs="12", :md="4", :lg="3", :key="item.objectId")
         router-link(:to="`${name}/${item.objectId}`")
           Obj(:mime="item.token_info.formats[0].mimeType", :hash="item.token_info.artifactUri.replace('ipfs://','')")
           h4.title.hue-rotate {{item.token_info && item.token_info.name}}
         p.desc(v-if="!galleries[name].description") {{item.token_info.description}}
+        //- p.editions {{item.total_amount}}
         p
-          span Check Availability:&nbsp;
+          span(v-if="item.swaps && item.swaps.length") {{ lowestPrice(item.swaps) }} XTZ&nbsp;
+          span(v-else) SOLD OUT:&nbsp;
           a.link.hue-rotate(target="hen", :href='`https://www.hicetnunc.xyz/objkt/${item.objectId}`') OBJKT {{item.objectId}}
             span.token_id
         hr
@@ -29,6 +34,14 @@ export default {
   name: 'Gallery',
   components: {
     Obj
+  },
+  methods: {
+    lowestPrice: function (swaps) {
+      return swaps.reduce((sum, s)=>{
+            if(Number(s.xtz_per_objkt) < sum) sum = Number(s.xtz_per_objkt);
+            return sum;
+          }, Infinity) / 1000000;
+    }
   },
   props: {
     name: String,
