@@ -8,6 +8,7 @@
     "build": "vue-cli-service build",
     "fetch": "node tools/build_gallery.js",
     "deploy": "node gh-pages-deploy.js",
+    "update": "node tools/build_gallery.js && git add -A . && git commit -m 'update swaps' && git push && node gh-pages-deploy.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
