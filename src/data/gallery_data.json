@@ -2475,5 +2475,157 @@
         "shouldPreferSymbol": false
       }
     }
+  ],
+  "pastel": [
+    {
+      "objectId": "37931",
+      "ipfsHash": "QmUU8z1rUv2WzkW7m7rWdRpmPcEF6FUhGJSTBCm1QaLZjX",
+      "swaps": [
+        {
+          "swap_id": "54343",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "4",
+          "xtz_per_objkt": "10000000"
+        }
+      ],
+      "token_id": "37931",
+      "total_amount": 5,
+      "owners": {
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "4",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "1"
+      },
+      "token_info": {
+        "name": "3D Dreaming of 15 Castles in Colorful Pastels",
+        "description": "A selection of 15 pastel castles, directed, curated, and stitched by @antic, using OpenAI CLIP to direct BigGan to search, 3d photo inpainting to explore, and bash scripting to compose in a perfect loop.",
+        "tags": [
+          "castles",
+          "BigGan",
+          "ai",
+          "3d-photo-inpainting",
+          "pastels",
+          "colorful",
+          "sunset",
+          "sky",
+          "openAI-clip",
+          "3d",
+          "interpolation",
+          "perfectloop"
+        ],
+        "symbol": "OBJKT",
+        "artifactUri": "ipfs://QmX9yfKandpP8HUCmTbJjrtSwijQ44pW15WLdazMeGEHDs",
+        "displayUri": "",
+        "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "creators": [
+          "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9"
+        ],
+        "formats": [
+          {
+            "uri": "ipfs://QmX9yfKandpP8HUCmTbJjrtSwijQ44pW15WLdazMeGEHDs",
+            "mimeType": "video/mp4"
+          }
+        ],
+        "decimals": 0,
+        "isBooleanAmount": false,
+        "shouldPreferSymbol": false
+      }
+    },
+    {
+      "objectId": "37943",
+      "ipfsHash": "QmQBpGCDbmPAfSYY4PdQGUKTCwVXK5ghTYipKa5c3an5Qm",
+      "swaps": [
+        {
+          "swap_id": "54365",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "4",
+          "xtz_per_objkt": "5000000"
+        }
+      ],
+      "token_id": "37943",
+      "total_amount": 5,
+      "owners": {
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "4",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "1"
+      },
+      "token_info": {
+        "name": "Pastel Castle #362",
+        "description": "A favorite pastel castle created using Clip to direct BigGan",
+        "tags": [
+          "castles",
+          "BigGan",
+          "ai",
+          "pastels",
+          "colorful",
+          "sunset",
+          "sky",
+          "openAI-clip"
+        ],
+        "symbol": "OBJKT",
+        "artifactUri": "ipfs://QmUdvY39YJtjWCaAn1DkopRLF36FEc7NSsyZAhZZCP8Jxm",
+        "displayUri": "",
+        "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "creators": [
+          "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9"
+        ],
+        "formats": [
+          {
+            "uri": "ipfs://QmUdvY39YJtjWCaAn1DkopRLF36FEc7NSsyZAhZZCP8Jxm",
+            "mimeType": "image/jpeg"
+          }
+        ],
+        "decimals": 0,
+        "isBooleanAmount": false,
+        "shouldPreferSymbol": false
+      }
+    },
+    {
+      "objectId": "37944",
+      "ipfsHash": "QmehmATeDKurTgq5UMdaeYUN1F3hekg47CjiuSubXZsdcr",
+      "swaps": [
+        {
+          "swap_id": "54366",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "4",
+          "xtz_per_objkt": "10000000"
+        }
+      ],
+      "token_id": "37944",
+      "total_amount": 5,
+      "owners": {
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "4",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "1"
+      },
+      "token_info": {
+        "name": "Dreaming of 15 Castles in Colorful Pastels",
+        "description": "A selection of 15 pastel castles, directed, curated, and stitched by @antic, using OpenAI CLIP to direct BigGan to search, and bash scripting to compose in a perfect loop.",
+        "tags": [
+          "castles",
+          "BigGan",
+          "ai",
+          "pastels",
+          "colorful",
+          "sunset",
+          "sky",
+          "openAI-clip",
+          "interpolation",
+          "perfectloop"
+        ],
+        "symbol": "OBJKT",
+        "artifactUri": "ipfs://QmajvJdcqJgeF7gZe1buk41zRdebiXb8MFikDsUn3YBK9s",
+        "displayUri": "",
+        "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "creators": [
+          "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9"
+        ],
+        "formats": [
+          {
+            "uri": "ipfs://QmajvJdcqJgeF7gZe1buk41zRdebiXb8MFikDsUn3YBK9s",
+            "mimeType": "video/mp4"
+          }
+        ],
+        "decimals": 0,
+        "isBooleanAmount": false,
+        "shouldPreferSymbol": false
+      }
+    }
   ]
 }
