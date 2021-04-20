@@ -1984,6 +1984,100 @@
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
       }
+    },
+    {
+      "objectId": "8404",
+      "ipfsHash": "Qmb6ma8CvEMaNPxtABfXmrgPfeEwKVjxZibCRiDFxxSx1d",
+      "swaps": [],
+      "token_id": "8404",
+      "total_amount": 50,
+      "owners": {
+        "tz1MsrdFYZfY5SJynGCjBCgsLeR3aVRMitTn": "1",
+        "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9": "49"
+      },
+      "token_info": {
+        "name": "Hipsters Like Coffee 2/3",
+        "description": "Part 2 of 3 in the second comic short by Adam Eivy (@antic); date: 2012-09-04; dimensions: 1500x2300; size: 1,827,933 bytes; format: png",
+        "tags": [
+          "hipsters",
+          "coffee",
+          "flies",
+          "comics",
+          "short",
+          "sequential"
+        ],
+        "symbol": "OBJKT",
+        "artifactUri": "ipfs://QmTQbUQT5TxSSwqsz7JxAqnJHMDKXf3t7wYGihQqAdNfkd",
+        "creators": [
+          "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9"
+        ],
+        "formats": [
+          {
+            "uri": "ipfs://QmTQbUQT5TxSSwqsz7JxAqnJHMDKXf3t7wYGihQqAdNfkd",
+            "mimeType": "image/png"
+          }
+        ],
+        "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "decimals": 0,
+        "isBooleanAmount": false,
+        "shouldPreferSymbol": false
+      }
+    },
+    {
+      "objectId": "8402",
+      "ipfsHash": "Qme7nuWBW27cWTayqGYvtN1XdpbmCnb635KTZ3NfmqcDob",
+      "swaps": [
+        {
+          "swap_id": "8371",
+          "issuer": "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9",
+          "objkt_amount": "38",
+          "xtz_per_objkt": "0"
+        }
+      ],
+      "token_id": "8402",
+      "total_amount": 50,
+      "owners": {
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "38",
+        "tz1MjfmzHTLq5oJUx1FgkxSHFfhbetiknSqR": "1",
+        "tz1MsrdFYZfY5SJynGCjBCgsLeR3aVRMitTn": "1",
+        "tz1R9rhGiQotgAzD4uME6XrirMgUCkp9wzeR": "1",
+        "tz1UGcoyfZj3QaKkLXuQSXgBA7urSBjDDvXe": "1",
+        "tz1VcWSWu19aiZCZwj5hGBVSb1PKuwT56U2e": "1",
+        "tz1Vkoqo2ZQsVXBniYJDfX6F2NMfH5RoEuGn": "1",
+        "tz1WntXgznbivRjyhE7Y5jEzoebAhMPB2iJa": "1",
+        "tz1aoM97DNwqYiw12edQoufP7npg9KJiFgja": "1",
+        "tz1bdEr4yZspfJspwkGUFb1SdByrYVy65viW": "1",
+        "tz1i5uekB9LeMyJFZKbMD4PkKwSJHpcXVrBJ": "1",
+        "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9": "1",
+        "tz2JdjnX5fQUpB2jWztqTBssrc9QQDr3xeyQ": "1"
+      },
+      "token_info": {
+        "name": "Hipsters Like Coffee 1/3",
+        "description": "Part 1 of 3 in the second comic short by Adam Eivy (@antic); date: 2012-09-04; dimensions: 1500x2300; size: 1,100,367 bytes",
+        "tags": [
+          "hipsters",
+          "coffee",
+          "flies",
+          "comics",
+          "short",
+          "sequential"
+        ],
+        "symbol": "OBJKT",
+        "artifactUri": "ipfs://Qmdb91yoZYk9iiKefBCjrvvF9aK5WD9DxGdSGZEGhmyLCL",
+        "creators": [
+          "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9"
+        ],
+        "formats": [
+          {
+            "uri": "ipfs://Qmdb91yoZYk9iiKefBCjrvvF9aK5WD9DxGdSGZEGhmyLCL",
+            "mimeType": "image/png"
+          }
+        ],
+        "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "decimals": 0,
+        "isBooleanAmount": false,
+        "shouldPreferSymbol": false
+      }
     }
   ],
   "process": [
