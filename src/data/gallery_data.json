@@ -19,15 +19,16 @@
         {
           "swap_id": "27687",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "2",
+          "objkt_amount": "1",
           "xtz_per_objkt": "5000000"
         }
       ],
       "token_id": "23132",
       "total_amount": 20,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "12",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "11",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
+        "tz1R3jknskHuoy4oAB9u7MtiK4ya6eFYfcYd": "1",
         "tz1RJaJXwrqyjUtWyXqcybX77yUKHj8j3oyL": "1",
         "tz1Wx7MztmFvP8J2cmwTcxY5SprK3DH8MuTL": "1",
         "tz1Y9XuoJJqQgNxVVesix1RLvn2k94JxD92Q": "2",
@@ -64,7 +65,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25115",
@@ -127,7 +129,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25117",
@@ -193,12 +196,19 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25129",
       "ipfsHash": "Qme9CcJeG7G1r3fi2xcdDbLpBvXpDNbdVea73thQr3fWGk",
       "swaps": [
+        {
+          "swap_id": "31439",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "5",
+          "xtz_per_objkt": "4000000"
+        },
         {
           "swap_id": "31427",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
@@ -207,12 +217,6 @@
         },
         {
           "swap_id": "31432",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "4000000"
-        },
-        {
-          "swap_id": "31439",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "5",
           "xtz_per_objkt": "4000000"
@@ -258,17 +262,18 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25149",
       "ipfsHash": "QmULRFU3Q94RPtZobS12Lg1J8FrU5xpDfQBwow5DjKmx8B",
       "swaps": [
         {
-          "swap_id": "31465",
+          "swap_id": "31474",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "3",
-          "xtz_per_objkt": "1000000"
+          "objkt_amount": "5",
+          "xtz_per_objkt": "4000000"
         },
         {
           "swap_id": "31469",
@@ -277,10 +282,10 @@
           "xtz_per_objkt": "2000000"
         },
         {
-          "swap_id": "31474",
+          "swap_id": "31465",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "4000000"
+          "objkt_amount": "3",
+          "xtz_per_objkt": "1000000"
         }
       ],
       "token_id": "25149",
@@ -324,7 +329,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25158",
@@ -337,10 +343,10 @@
           "xtz_per_objkt": "1000000"
         },
         {
-          "swap_id": "31491",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "2000000"
+          "swap_id": "31541",
+          "issuer": "tz1RAP1j8SjwT587jyccTNArBFhC9HhGKfHq",
+          "objkt_amount": "1",
+          "xtz_per_objkt": "10000000"
         },
         {
           "swap_id": "31495",
@@ -349,10 +355,10 @@
           "xtz_per_objkt": "4000000"
         },
         {
-          "swap_id": "31541",
-          "issuer": "tz1RAP1j8SjwT587jyccTNArBFhC9HhGKfHq",
-          "objkt_amount": "1",
-          "xtz_per_objkt": "10000000"
+          "swap_id": "31491",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "5",
+          "xtz_per_objkt": "2000000"
         }
       ],
       "token_id": "25158",
@@ -394,12 +400,19 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25167",
       "ipfsHash": "QmWQH7DmDZaRtVt9HD72WE9sUDKjrTLmq1A3uUMEHCncZK",
       "swaps": [
+        {
+          "swap_id": "31510",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "5",
+          "xtz_per_objkt": "4000000"
+        },
         {
           "swap_id": "31505",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
@@ -411,12 +424,6 @@
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "5",
           "xtz_per_objkt": "2000000"
-        },
-        {
-          "swap_id": "31510",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "4000000"
         },
         {
           "swap_id": "33264",
@@ -463,7 +470,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "45718",
@@ -604,7 +612,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "990",
@@ -634,7 +643,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "957",
@@ -680,7 +690,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "1444",
@@ -711,7 +722,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "984",
@@ -742,7 +754,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "996",
@@ -780,7 +793,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "980",
@@ -810,7 +824,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "988",
@@ -848,7 +863,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "1142",
@@ -886,7 +902,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "992",
@@ -923,7 +940,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "969",
@@ -953,7 +971,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "971",
@@ -983,7 +1002,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "3006",
@@ -1027,7 +1047,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "972",
@@ -1057,18 +1078,13 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "28628",
       "ipfsHash": "QmRkVVfTA23RyHXb9VoDQ1t4NMUoAV6iRcMaJDzWdHNKnP",
       "swaps": [
-        {
-          "swap_id": "38105",
-          "issuer": "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9",
-          "objkt_amount": "1",
-          "xtz_per_objkt": "3000000"
-        },
         {
           "swap_id": "38100",
           "issuer": "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9",
@@ -1080,6 +1096,12 @@
           "issuer": "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9",
           "objkt_amount": "1",
           "xtz_per_objkt": "2000000"
+        },
+        {
+          "swap_id": "38105",
+          "issuer": "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9",
+          "objkt_amount": "1",
+          "xtz_per_objkt": "3000000"
         },
         {
           "swap_id": "42850",
@@ -1122,7 +1144,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     }
   ],
   "prosopagnosia": [
@@ -1130,12 +1153,6 @@
       "objectId": "25769",
       "ipfsHash": "QmbxLCWLNNppTVmzVuWWX5J8pG3k8TpAHSFZ2Y79hjiNNk",
       "swaps": [
-        {
-          "swap_id": "42529",
-          "issuer": "tz1dWuBhVBcfSzDAuM7YsomUX8yw3RzwHDss",
-          "objkt_amount": "1",
-          "xtz_per_objkt": "2000000"
-        },
         {
           "swap_id": "40527",
           "issuer": "tz1dWuBhVBcfSzDAuM7YsomUX8yw3RzwHDss",
@@ -1153,6 +1170,12 @@
           "issuer": "tz1Vkoqo2ZQsVXBniYJDfX6F2NMfH5RoEuGn",
           "objkt_amount": "1",
           "xtz_per_objkt": "2500000"
+        },
+        {
+          "swap_id": "42529",
+          "issuer": "tz1dWuBhVBcfSzDAuM7YsomUX8yw3RzwHDss",
+          "objkt_amount": "1",
+          "xtz_per_objkt": "2000000"
         },
         {
           "swap_id": "57953",
@@ -1216,23 +1239,24 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25896",
       "ipfsHash": "QmRvGVGi3TioaqLQmXGeQqCnsxsLyDYCgaJdJ9jbNHiNa7",
       "swaps": [
         {
-          "swap_id": "40139",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "3",
-          "xtz_per_objkt": "1000000"
-        },
-        {
           "swap_id": "40149",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "4",
           "xtz_per_objkt": "5000000"
+        },
+        {
+          "swap_id": "40139",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "3",
+          "xtz_per_objkt": "1000000"
         },
         {
           "swap_id": "57961",
@@ -1248,8 +1272,9 @@
         "tz1Mc1eC61daN2TQCZQCWE3Y9ypdHWcxva7H": "2",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
         "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "1",
+        "tz1UMXLCLXR6HxpCZjgx1iP1FAxCREFmBpjm": "1",
         "tz1YeHxLZJrVT8iEZmfZDJ99dtmRxcsDYaEE": "1",
-        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "4",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "3",
         "tz1dg7mtTtYUNXAFMbWmVB1Aw9wwF7umT7Hy": "1",
         "tz2VG86MBg1rwqXmwj4yXTLNJJarVoUEUKiE": "2"
       },
@@ -1290,23 +1315,24 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25900",
       "ipfsHash": "QmNyXeXmroVMofCiYSmz2BHvaoK5ob2XhafTXknsDBMnZL",
       "swaps": [
         {
-          "swap_id": "41230",
-          "issuer": "tz1dWuBhVBcfSzDAuM7YsomUX8yw3RzwHDss",
-          "objkt_amount": "2",
-          "xtz_per_objkt": "800000"
-        },
-        {
           "swap_id": "40155",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "4",
           "xtz_per_objkt": "2000000"
+        },
+        {
+          "swap_id": "41230",
+          "issuer": "tz1dWuBhVBcfSzDAuM7YsomUX8yw3RzwHDss",
+          "objkt_amount": "2",
+          "xtz_per_objkt": "800000"
         },
         {
           "swap_id": "57965",
@@ -1324,7 +1350,8 @@
         "tz1QpvURES6sBsL6gGh4aeBRtw6ShcAjYj6u": "1",
         "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "1",
         "tz1T75dNwLtP1M9DmQmV7wUkoSwiaU1PgXHE": "1",
-        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "5",
+        "tz1UMXLCLXR6HxpCZjgx1iP1FAxCREFmBpjm": "1",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "4",
         "tz2VG86MBg1rwqXmwj4yXTLNJJarVoUEUKiE": "1"
       },
       "token_info": {
@@ -1364,7 +1391,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25918",
@@ -1402,9 +1430,11 @@
         "tz1Mc1eC61daN2TQCZQCWE3Y9ypdHWcxva7H": "1",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
         "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "1",
+        "tz1TSWEDs9wcBx2KiRzVzyzECsNpRiZaLJ1D": "1",
+        "tz1UMXLCLXR6HxpCZjgx1iP1FAxCREFmBpjm": "1",
         "tz1YeHxLZJrVT8iEZmfZDJ99dtmRxcsDYaEE": "2",
         "tz1bvHicmPajFP7HvTgePjGAH4WLn6roktoS": "1",
-        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "6",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "4",
         "tz2DknFnpN8hgr7MAQcaJ9AMY4RSPuPByfY1": "1",
         "tz2VG86MBg1rwqXmwj4yXTLNJJarVoUEUKiE": "2"
       },
@@ -1445,23 +1475,24 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25948",
       "ipfsHash": "QmZqJHQNJ8z2ziMpxU64VeAFgewak5WFisU329cFgNGoFU",
       "swaps": [
         {
-          "swap_id": "40196",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "2",
-          "xtz_per_objkt": "5000000"
-        },
-        {
           "swap_id": "40191",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "1",
           "xtz_per_objkt": "10000000"
+        },
+        {
+          "swap_id": "40196",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "2",
+          "xtz_per_objkt": "5000000"
         },
         {
           "swap_id": "40206",
@@ -1487,9 +1518,13 @@
       "owners": {
         "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "6",
         "tz1Mc1eC61daN2TQCZQCWE3Y9ypdHWcxva7H": "2",
+        "tz1NNcP1AkgvJ87WXctCqgnsANaPXzGtnbiL": "1",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
+        "tz1Q4wtbjXfPvNxpj8NfztiFDV6Mzeu2RVx8": "1",
         "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "1",
-        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "8",
+        "tz1SDZM1kqzL6psuSCENppawXXAsDXH6yVmH": "1",
+        "tz1UMXLCLXR6HxpCZjgx1iP1FAxCREFmBpjm": "1",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "4",
         "tz1e52CpddrybiDgawzvqRPXthy2hbAWGJba": "1",
         "tz2VG86MBg1rwqXmwj4yXTLNJJarVoUEUKiE": "1"
       },
@@ -1530,23 +1565,24 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "25998",
       "ipfsHash": "QmZbWCevYuZrh8NXA1vMKJiquE8mkkVgWzzEGT2iaUJFJQ",
       "swaps": [
         {
-          "swap_id": "40234",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "1",
-          "xtz_per_objkt": "20000000"
-        },
-        {
           "swap_id": "40217",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "1",
           "xtz_per_objkt": "10000000"
+        },
+        {
+          "swap_id": "40234",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "1",
+          "xtz_per_objkt": "20000000"
         },
         {
           "swap_id": "40261",
@@ -1574,9 +1610,10 @@
         "tz1Mc1eC61daN2TQCZQCWE3Y9ypdHWcxva7H": "2",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
         "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "1",
+        "tz1UMXLCLXR6HxpCZjgx1iP1FAxCREFmBpjm": "1",
         "tz1bvHicmPajFP7HvTgePjGAH4WLn6roktoS": "1",
         "tz1bxe2Tp3EqWZqZX5Kvmg9MxTmX8LBiUchk": "2",
-        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "2",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "1",
         "tz1dWuBhVBcfSzDAuM7YsomUX8yw3RzwHDss": "1",
         "tz2VG86MBg1rwqXmwj4yXTLNJJarVoUEUKiE": "1"
       },
@@ -1617,18 +1654,13 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "26001",
       "ipfsHash": "QmQznKX26KxKV2yoQhHfFdDJXmzFdpmKWirCMDt8LNthc9",
       "swaps": [
-        {
-          "swap_id": "40236",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "1000000"
-        },
         {
           "swap_id": "40238",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
@@ -1646,23 +1678,30 @@
           "issuer": "tz1dWuBhVBcfSzDAuM7YsomUX8yw3RzwHDss",
           "objkt_amount": "1",
           "xtz_per_objkt": "800000"
+        },
+        {
+          "swap_id": "62985",
+          "issuer": "tz1fC6TW49wE8WyHZREGhNQnDEtPKtZCYdDn",
+          "objkt_amount": "1",
+          "xtz_per_objkt": "9000000"
         }
       ],
       "token_id": "26001",
       "total_amount": 20,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "8",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "4",
         "tz1Mc1eC61daN2TQCZQCWE3Y9ypdHWcxva7H": "1",
         "tz1Mh7WrKQP4PTio9NJUZL4iPW8f9tzBSv1U": "1",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
         "tz1Rg3n8aWJfqKKb67RCgQdY7ZwpQJdJ6NPd": "1",
         "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "1",
         "tz1T75dNwLtP1M9DmQmV7wUkoSwiaU1PgXHE": "1",
+        "tz1UMXLCLXR6HxpCZjgx1iP1FAxCREFmBpjm": "1",
         "tz1WidyAU8wuyG25Pd7b93bcx9hMu7W9Pea8": "1",
         "tz1WntXgznbivRjyhE7Y5jEzoebAhMPB2iJa": "1",
         "tz1YRG68NdqtAcsFEwTUw6FsSsiBb5kagEDo": "1",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "4",
         "tz1cjn8DAkb7FsCHMJsJq17uRFWhCrGxnzqd": "1",
-        "tz1fC6TW49wE8WyHZREGhNQnDEtPKtZCYdDn": "1",
         "tz2VG86MBg1rwqXmwj4yXTLNJJarVoUEUKiE": "1"
       },
       "token_info": {
@@ -1702,7 +1741,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 100
     },
     {
       "objectId": "26002",
@@ -1746,9 +1786,9 @@
         "tz1Mc1eC61daN2TQCZQCWE3Y9ypdHWcxva7H": "1",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
         "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "1",
+        "tz1UMXLCLXR6HxpCZjgx1iP1FAxCREFmBpjm": "1",
         "tz1amFSYicyGmXq4xLRnCRYUKfouHdzVWFGV": "1",
         "tz1bncdBqZCZb72qe8zb45bhmqW4bWiNhKWD": "1",
-        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "1",
         "tz2VG86MBg1rwqXmwj4yXTLNJJarVoUEUKiE": "1"
       },
       "token_info": {
@@ -1788,7 +1828,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     }
   ],
   "panels": [
@@ -1836,7 +1877,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "8402",
@@ -1892,7 +1934,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "8404",
@@ -1938,7 +1981,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "8405",
@@ -1984,7 +2028,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 100
     },
     {
       "objectId": "6867",
@@ -2051,7 +2096,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "6868",
@@ -2118,7 +2164,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "6865",
@@ -2191,7 +2238,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     }
   ],
   "process": [
@@ -2250,7 +2298,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "1228",
@@ -2288,7 +2337,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "2299",
@@ -2323,7 +2373,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "3007",
@@ -2362,7 +2413,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     }
   ],
   "program": [
@@ -2441,7 +2493,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "9355",
@@ -2496,7 +2549,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "3942",
@@ -2553,7 +2607,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "17117",
@@ -2572,6 +2627,12 @@
           "xtz_per_objkt": "10000000"
         },
         {
+          "swap_id": "60417",
+          "issuer": "tz1YNUNArBDYWu8evZj73HR9vE6y5FQkaj5M",
+          "objkt_amount": "3",
+          "xtz_per_objkt": "3888800"
+        },
+        {
           "swap_id": "57847",
           "issuer": "tz1RJaJXwrqyjUtWyXqcybX77yUKHj8j3oyL",
           "objkt_amount": "1",
@@ -2588,12 +2649,6 @@
           "issuer": "tz1YNUNArBDYWu8evZj73HR9vE6y5FQkaj5M",
           "objkt_amount": "1",
           "xtz_per_objkt": "4444400"
-        },
-        {
-          "swap_id": "60417",
-          "issuer": "tz1YNUNArBDYWu8evZj73HR9vE6y5FQkaj5M",
-          "objkt_amount": "3",
-          "xtz_per_objkt": "3888800"
         }
       ],
       "token_id": "17117",
@@ -2672,7 +2727,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     }
   ],
   "pastel": [
@@ -2726,7 +2782,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "37943",
@@ -2774,7 +2831,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     },
     {
       "objectId": "37944",
@@ -2824,7 +2882,8 @@
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
-      }
+      },
+      "hDAO_balance": 0
     }
   ]
 }
