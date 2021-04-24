@@ -464,6 +464,68 @@
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
       }
+    },
+    {
+      "objectId": "45718",
+      "ipfsHash": "QmVAc2xeZv3yAdRZCM9czKrawqPQSSZMxu6u718CpdSATA",
+      "swaps": [
+        {
+          "swap_id": "67361",
+          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
+          "objkt_amount": "235",
+          "xtz_per_objkt": "0"
+        }
+      ],
+      "token_id": "45718",
+      "total_amount": 250,
+      "owners": {
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "235",
+        "tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a": "1",
+        "tz1R3jknskHuoy4oAB9u7MtiK4ya6eFYfcYd": "1",
+        "tz1RbjeBrvRVM8kCHtz1E7LtZFHBqs5avjWN": "1",
+        "tz1S8Lc2zGSDDVeHqn1BSYDz6tmkuBNSEAY4": "1",
+        "tz1SZFcNDKH7dhZ26QGK2emRJLwtE2Kr5NtH": "1",
+        "tz1VWBWBN62KBuV1NxsbYYBSC4m4Cb52k1fG": "1",
+        "tz1VgaDXxRSEJu9CZVAkRyymYtWABixbZQQo": "1",
+        "tz1W7Av7ziVm8h5dvAAi8om2SqPm1EVss6BM": "1",
+        "tz1WYhJAMsnpMcaQJgZ7S5CNPCZnoHGNsRSa": "1",
+        "tz1c4MRQur9Gz8Yzx1Bv6ssemBkbeF5fhErx": "1",
+        "tz1choNzEVu2U2uEXg1xEMBpgK6WvxQvXgHK": "1",
+        "tz1fhd4k1jSJRRcNVbkMwVzkKEhX3kzApsfk": "1",
+        "tz1fne8nhZuSRgzaQPyaomKQcFRfthyicBQc": "1",
+        "tz29Kpt7Ra6y1863BpZ28qRQv2xRGoBk4fY1": "1",
+        "tz2DD5NM27cdQZ4gZMaN3UmE85CJzJKpbWyL": "1"
+      },
+      "token_info": {
+        "name": "GAN Comics 2.0 - Preview",
+        "description": "GAN comics in 768x1024; Make your own dialog, like so: \"Yes?\" ➡️ \"The humans are coming to get us!\" ➡️ \"Really?\" ➡️ \"Lies. Humans died out long ago.\" ➡️ \"I've seen one!\" ➡️ \"Which one?\" ➡️ \"The one behind you that is about to eat your brain! HAHAHAHA.\" ➡️ \"...\"",
+        "tags": [
+          "comics",
+          "gan",
+          "generative",
+          "narrative",
+          "storytelling",
+          "watercolor",
+          "objkt4objkt"
+        ],
+        "symbol": "OBJKT",
+        "artifactUri": "ipfs://QmZzhog8Aj4keGAJ6s2AMokxnViQRStpEtfQCkA7HnPikM",
+        "displayUri": "",
+        "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "creators": [
+          "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9"
+        ],
+        "formats": [
+          {
+            "uri": "ipfs://QmZzhog8Aj4keGAJ6s2AMokxnViQRStpEtfQCkA7HnPikM",
+            "mimeType": "image/jpeg"
+          }
+        ],
+        "decimals": 0,
+        "isBooleanAmount": false,
+        "shouldPreferSymbol": false
+      },
+      "hDAO_balance": 6997
     }
   ],
   "paintings": [
