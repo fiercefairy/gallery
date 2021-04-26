@@ -5,12 +5,6 @@
       "ipfsHash": "QmYzmV61Sx26aSSrWq6LdWsHFo3Bczemfzu4csGXH9sQzo",
       "swaps": [
         {
-          "swap_id": "27688",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "10000000"
-        },
-        {
           "swap_id": "27725",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "5",
@@ -26,13 +20,14 @@
       "token_id": "23132",
       "total_amount": 20,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "11",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "6",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
         "tz1R3jknskHuoy4oAB9u7MtiK4ya6eFYfcYd": "1",
         "tz1RJaJXwrqyjUtWyXqcybX77yUKHj8j3oyL": "1",
         "tz1Wx7MztmFvP8J2cmwTcxY5SprK3DH8MuTL": "1",
         "tz1Y9XuoJJqQgNxVVesix1RLvn2k94JxD92Q": "2",
         "tz1ZHas6yUhPYDwnxCYeMiUaNfh6Cxd27i1o": "1",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "5",
         "tz1cbhmVZuFTKHcACSFpg5ER1bGVGkanhrbW": "1",
         "tz1fhd4k1jSJRRcNVbkMwVzkKEhX3kzApsfk": "1"
       },
@@ -338,12 +333,6 @@
       "ipfsHash": "QmY2pQjqt5ZDetnYdd15BAvcPKxZjggNT5aVm7Exp1MJ1f",
       "swaps": [
         {
-          "swap_id": "31484",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "4",
-          "xtz_per_objkt": "1000000"
-        },
-        {
           "swap_id": "31491",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "5",
@@ -365,11 +354,12 @@
       "token_id": "25158",
       "total_amount": 20,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "15",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "11",
         "tz1MCaehYRvrhPWv7HiCYQKyi9WDXbAUZkwv": "1",
         "tz1RAP1j8SjwT587jyccTNArBFhC9HhGKfHq": "1",
         "tz1UE2omGnq3NzmMdxADYp1dcgvRKFuoFmy7": "1",
         "tz1Y9XuoJJqQgNxVVesix1RLvn2k94JxD92Q": "1",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "4",
         "tz1c2iwyckUCcicx2qxqtwLEartYFEHg1pvB": "1"
       },
       "token_info": {
@@ -409,22 +399,10 @@
       "ipfsHash": "QmWQH7DmDZaRtVt9HD72WE9sUDKjrTLmq1A3uUMEHCncZK",
       "swaps": [
         {
-          "swap_id": "31505",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "1000000"
-        },
-        {
           "swap_id": "31508",
           "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
           "objkt_amount": "5",
           "xtz_per_objkt": "2000000"
-        },
-        {
-          "swap_id": "31510",
-          "issuer": "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "4000000"
         },
         {
           "swap_id": "33264",
@@ -436,9 +414,10 @@
       "token_id": "25167",
       "total_amount": 20,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "16",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "6",
         "tz1UE2omGnq3NzmMdxADYp1dcgvRKFuoFmy7": "1",
         "tz1Y9XuoJJqQgNxVVesix1RLvn2k94JxD92Q": "1",
+        "tz1c2e1WMKKtf6oBZcZK3YFxrXgVbb2ggRr9": "10",
         "tz1fUZ5pMP1gUjuJsp5V631cXmA87Kxm3cuZ": "1",
         "tz2VG86MBg1rwqXmwj4yXTLNJJarVoUEUKiE": "1"
       },
@@ -485,7 +464,7 @@
         "tz1LLSwj6gGNX1eFHAvnt4tkC8WQryeRBpPW": "1",
         "tz1MH7vTRc4yXkttnoU93CYqiZfhEzk7C17a": "1",
         "tz1P8uYyet8iFHJiK55e8QPErhXg9pNuNaWV": "1",
-        "tz1PR1P5Vmf5QHKzjWCbu2BMnkMH6DgZkdPH": "2",
+        "tz1PR1P5Vmf5QHKzjWCbu2BMnkMH6DgZkdPH": "1",
         "tz1PYJbuAbc14ZBLbD7jQszoVDDEbMBpjYKG": "1",
         "tz1R3jknskHuoy4oAB9u7MtiK4ya6eFYfcYd": "1",
         "tz1RAP1j8SjwT587jyccTNArBFhC9HhGKfHq": "1",
@@ -495,6 +474,7 @@
         "tz1SZFcNDKH7dhZ26QGK2emRJLwtE2Kr5NtH": "1",
         "tz1VWBWBN62KBuV1NxsbYYBSC4m4Cb52k1fG": "1",
         "tz1VgaDXxRSEJu9CZVAkRyymYtWABixbZQQo": "1",
+        "tz1ViX8Tf5Eyr7Upj1G4ayEovj8wBNK6KZHh": "1",
         "tz1W5VxYrYMLzQCjhcEtb7xGoGoTWmpiscHX": "1",
         "tz1W7Av7ziVm8h5dvAAi8om2SqPm1EVss6BM": "1",
         "tz1WYhJAMsnpMcaQJgZ7S5CNPCZnoHGNsRSa": "1",
@@ -1905,14 +1885,15 @@
         {
           "swap_id": "8371",
           "issuer": "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9",
-          "objkt_amount": "34",
+          "objkt_amount": "33",
           "xtz_per_objkt": "0"
         }
       ],
       "token_id": "8402",
       "total_amount": 50,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "34",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "33",
+        "tz1LaKayam3qQdbYvJJNAYR9MpRv3tPpSUPo": "1",
         "tz1MjfmzHTLq5oJUx1FgkxSHFfhbetiknSqR": "1",
         "tz1MsrdFYZfY5SJynGCjBCgsLeR3aVRMitTn": "1",
         "tz1R9rhGiQotgAzD4uME6XrirMgUCkp9wzeR": "1",
@@ -2134,14 +2115,15 @@
         {
           "swap_id": "22745",
           "issuer": "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9",
-          "objkt_amount": "20",
+          "objkt_amount": "19",
           "xtz_per_objkt": "500000"
         }
       ],
       "token_id": "6868",
       "total_amount": 50,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "45",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "44",
+        "tz1ZzaynzLf5zSy28qgRda6pVEX9o3ji8tGe": "1",
         "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9": "5"
       },
       "token_info": {
