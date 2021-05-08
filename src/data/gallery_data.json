@@ -38,9 +38,7 @@
         "artifactUri": "ipfs://QmZkNzMzxVD2kFP8s1Lq6QrGoAWd2cSRkrWtR7UhJiuzw7",
         "displayUri": "",
         "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmZkNzMzxVD2kFP8s1Lq6QrGoAWd2cSRkrWtR7UhJiuzw7",
@@ -122,17 +120,10 @@
       "token_info": {
         "name": "A Colorful Hex On You",
         "description": "Original painting by Ilya Eivy, at age 12, 2021-03-15",
-        "tags": [
-          "abstract",
-          "colorful",
-          "hex",
-          "hexagons"
-        ],
+        "tags": ["abstract", "colorful", "hex", "hexagons"],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmYWYD22j3b14vNCCfKct9e3QvSrKXX2bvCQ1VKzhQk5yh",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmYWYD22j3b14vNCCfKct9e3QvSrKXX2bvCQ1VKzhQk5yh",
@@ -184,18 +175,11 @@
       "token_info": {
         "name": "Peace",
         "description": "Original painting by Ilya Eivy, age 12",
-        "tags": [
-          "peace",
-          "circles",
-          "colorful",
-          "abstract"
-        ],
+        "tags": ["peace", "circles", "colorful", "abstract"],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmYTnuTKTTnxxqjcqc3Wg3vABMbnu3V6HntMXvT15HNGLF",
         "displayUri": "",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmYTnuTKTTnxxqjcqc3Wg3vABMbnu3V6HntMXvT15HNGLF",
@@ -262,9 +246,7 @@
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmdJv89QKNzVWRgRa2BX4dBhwjG51p341zmSh9k1N18Z3V",
         "displayUri": null,
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmdJv89QKNzVWRgRa2BX4dBhwjG51p341zmSh9k1N18Z3V",
@@ -316,19 +298,11 @@
       "token_info": {
         "name": "Mystic Morning",
         "description": "Original painting by Ilya Eivy, age 12",
-        "tags": [
-          "pentagons",
-          "mistic",
-          "morning",
-          "colors",
-          "abstract"
-        ],
+        "tags": ["pentagons", "mistic", "morning", "colors", "abstract"],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmdAmSpLmHDF8JinnzqKYyft1z99qTtrw5K2JZzk4QSmJg",
         "displayUri": "",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmdAmSpLmHDF8JinnzqKYyft1z99qTtrw5K2JZzk4QSmJg",
@@ -380,19 +354,11 @@
       "token_info": {
         "name": "Encircled",
         "description": "Colored circles, created by Ilya Eivy, at age 12; date: 2021-03-25",
-        "tags": [
-          "circles",
-          "color",
-          "bloom",
-          "pink",
-          "abstract"
-        ],
+        "tags": ["circles", "color", "bloom", "pink", "abstract"],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmWzm4uVbzCWAYFoMfmFdX9xfzGjgkLmQ79X9br1mwCR9e",
         "displayUri": "",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmWzm4uVbzCWAYFoMfmFdX9xfzGjgkLmQ79X9br1mwCR9e",
@@ -451,18 +417,11 @@
       "token_info": {
         "name": "Bubble Pop",
         "description": "Original Painting by Ilya Eivy, age 12; date: 2021-04-03",
-        "tags": [
-          "abstract",
-          "circles",
-          "bubbles",
-          "pop"
-        ],
+        "tags": ["abstract", "circles", "bubbles", "pop"],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmTfRJRr3PY4NVMA86nLiQMBnSaHczBYpTTBezWskLns9R",
         "displayUri": "",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmTfRJRr3PY4NVMA86nLiQMBnSaHczBYpTTBezWskLns9R",
@@ -515,19 +474,11 @@
       "token_info": {
         "name": "Colorful Night",
         "description": "Original painting by Ilya Eivy, age 12",
-        "tags": [
-          "colorful",
-          "night",
-          "hexagons",
-          "abstract",
-          "overlay"
-        ],
+        "tags": ["colorful", "night", "hexagons", "abstract", "overlay"],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmSRcV7VrQACqk9AWwBxXNQprgvKjV4rSX7FwCuxCXQNK4",
         "displayUri": "",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmSRcV7VrQACqk9AWwBxXNQprgvKjV4rSX7FwCuxCXQNK4",
@@ -579,17 +530,11 @@
       "token_info": {
         "name": "Cloudy Morning",
         "description": "Original painting by Ilya Eivy, age 12",
-        "tags": [
-          "colors",
-          "circles",
-          "overlapping"
-        ],
+        "tags": ["colors", "circles", "overlapping"],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmdC5ZuMH8fntLcFY2fqvDFuYCvK9gCm3oKQcYLCzNHjkh",
         "displayUri": "",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmdC5ZuMH8fntLcFY2fqvDFuYCvK9gCm3oKQcYLCzNHjkh",
@@ -643,20 +588,12 @@
       "token_info": {
         "name": "Misty Lake",
         "description": "Original painting by Ilya Eivy; date: 2021-04-09",
-        "tags": [
-          "misty",
-          "lake",
-          "tress",
-          "dream",
-          "colorful"
-        ],
+        "tags": ["misty", "lake", "tress", "dream", "colorful"],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmPWYGVHaqeYzPkNbrXpR5btwytDSRwLxPyqCSosAo12er",
         "displayUri": "",
         "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
-        "creators": [
-          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
-        ],
+        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
         "formats": [
           {
             "uri": "ipfs://QmPWYGVHaqeYzPkNbrXpR5btwytDSRwLxPyqCSosAo12er",
