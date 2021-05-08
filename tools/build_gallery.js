@@ -19,9 +19,14 @@ const getData = require("./lib/getData");
       `fetching data for gallery ${galleryName} (${items.length} items)`
     );
     for (let i = 0; i < items.length; i++) {
-      const data = await getData(items[i]);
-      galleryData[galleryName].push(data);
-      console.log(`fetched ${items[i]}`);
+      let data;
+      try {
+        data = await getData(items[i]);
+        galleryData[galleryName].push(data);
+        console.log(`fetched ${items[i]}`);
+      } catch (e) {
+        console.error(e.message);
+      }
     }
     galleryData[galleryName] = galleryData[galleryName].filter(i => i);
   }
