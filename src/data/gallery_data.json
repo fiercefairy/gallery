@@ -5,10 +5,10 @@
       "ipfsHash": "QmVnqCQzZu8XTvctvv6u9114hoGMzGYso2PK9ioBUGJJqc",
       "swaps": [
         {
-          "swap_id": "124062",
+          "swap_id": "124115",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "3",
-          "xtz_per_objkt": "500000"
+          "objkt_amount": "1",
+          "xtz_per_objkt": "10000000"
         },
         {
           "swap_id": "124070",
@@ -20,8 +20,11 @@
       "token_id": "70164",
       "total_amount": 10,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "6",
-        "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "4"
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "4",
+        "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "3",
+        "tz1WeSgHesW4kmisiBwvXDp5HFj9MPy6qjnm": "1",
+        "tz1grbNcg6kzXA8ffWkL3SB5GLt4ij3xjFqp": "1",
+        "tz2ThzpknULgLtdsraqbVy5s24zYkTCLKReK": "1"
       },
       "token_info": {
         "name": "A New Hope",
@@ -38,7 +41,9 @@
         "artifactUri": "ipfs://QmZkNzMzxVD2kFP8s1Lq6QrGoAWd2cSRkrWtR7UhJiuzw7",
         "displayUri": "",
         "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmZkNzMzxVD2kFP8s1Lq6QrGoAWd2cSRkrWtR7UhJiuzw7",
@@ -49,7 +54,7 @@
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
       },
-      "hDAO_balance": 0
+      "hDAO_balance": 5171
     },
     {
       "objectId": "6906",
@@ -62,12 +67,6 @@
           "xtz_per_objkt": "500000"
         },
         {
-          "swap_id": "22797",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "10",
-          "xtz_per_objkt": "1000000"
-        },
-        {
           "swap_id": "35940",
           "issuer": "tz1eRS4s2da82Lev6QqjTe6JcM3FzXQdYTcx",
           "objkt_amount": "1",
@@ -76,14 +75,14 @@
         {
           "swap_id": "6947",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "27",
+          "objkt_amount": "25",
           "xtz_per_objkt": "250000"
         }
       ],
       "token_id": "6906",
       "total_amount": 100,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "63",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "51",
         "tz1LLSwj6gGNX1eFHAvnt4tkC8WQryeRBpPW": "1",
         "tz1M7Cki8qREkv56kFWNUiNyvEpZUZ8m6gPA": "1",
         "tz1Mh7WrKQP4PTio9NJUZL4iPW8f9tzBSv1U": "1",
@@ -93,15 +92,17 @@
         "tz1PmkivtHWNkvh8nFdhLJdXnc49TKMiz8i4": "1",
         "tz1Pu8zRmNghAHzWxsT9Cy2qXHxkCrHcB3vc": "1",
         "tz1PwQdBE2AYqQJESd4nVzXAswTxBPGyUGvX": "1",
-        "tz1Rwx6G3MFW5VCeSd4bJQphXuUR3Q56omLW": "1",
+        "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY": "10",
         "tz1Ta4wUo4G3phRSvnmyVZw6xPo8zteUwDyV": "1",
-        "tz1ULNuEC2ArSSBvp43romfB9bn2wKozZjLL": "1",
         "tz1UQqDZPQLM32ewUzpq29iXmuFvuJ1WersK": "2",
         "tz1VEGp9CMpo4CyAoaoo6BHHy7C7m2Qe2Stk": "1",
+        "tz1VGBt2fBL9KwdpkyDoCRaGjyEvYwW9vcUc": "1",
+        "tz1WeSgHesW4kmisiBwvXDp5HFj9MPy6qjnm": "1",
         "tz1YNUNArBDYWu8evZj73HR9vE6y5FQkaj5M": "3",
         "tz1ZBmPFFFjEZN8MTMxrJi9RcPwqGCDdUhru": "1",
         "tz1ZdjR3JnLDgk7gDMWA64cLrKv5ujrSKF28": "1",
         "tz1Zgz5rgjTg5aaL4foP6tvbYt7VNnNPiYHj": "1",
+        "tz1Zy776w4Br4asmH2Z9FNdUUHiZ4Gwbo4ok": "1",
         "tz1bdEr4yZspfJspwkGUFb1SdByrYVy65viW": "1",
         "tz1bxe2Tp3EqWZqZX5Kvmg9MxTmX8LBiUchk": "2",
         "tz1cxTJQtdGf1PaEQGTPvrDvH46uTbesPi5w": "1",
@@ -112,6 +113,7 @@
         "tz1g6JRCpsEnD2BLiAzPNK3GBD1fKicV9rCx": "1",
         "tz1gEVqnejRkwfpfqoxhTfi9tDm1xT2mqiGV": "1",
         "tz1grbNcg6kzXA8ffWkL3SB5GLt4ij3xjFqp": "1",
+        "tz1hhG3vN2NCoPZepvEbKHBFQ5denwNJwHXP": "1",
         "tz1iZ9yHJzgvC4oBvHsrNmtL8GHPqtwqshAi": "1",
         "tz1iyFi4WjSttoja7Vi1EJYMEKKSebQyMkF9": "1",
         "tz2EfNQdimaN1paGywV5M7XattecSB2B5JRb": "1",
@@ -120,10 +122,17 @@
       "token_info": {
         "name": "A Colorful Hex On You",
         "description": "Original painting by Ilya Eivy, at age 12, 2021-03-15",
-        "tags": ["abstract", "colorful", "hex", "hexagons"],
+        "tags": [
+          "abstract",
+          "colorful",
+          "hex",
+          "hexagons"
+        ],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmYWYD22j3b14vNCCfKct9e3QvSrKXX2bvCQ1VKzhQk5yh",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmYWYD22j3b14vNCCfKct9e3QvSrKXX2bvCQ1VKzhQk5yh",
@@ -148,16 +157,16 @@
           "xtz_per_objkt": "750000"
         },
         {
-          "swap_id": "69479",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "4",
-          "xtz_per_objkt": "1000000"
-        },
-        {
           "swap_id": "33174",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
           "objkt_amount": "3",
           "xtz_per_objkt": "250000"
+        },
+        {
+          "swap_id": "69479",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "4",
+          "xtz_per_objkt": "1000000"
         }
       ],
       "token_id": "26064",
@@ -175,11 +184,18 @@
       "token_info": {
         "name": "Peace",
         "description": "Original painting by Ilya Eivy, age 12",
-        "tags": ["peace", "circles", "colorful", "abstract"],
+        "tags": [
+          "peace",
+          "circles",
+          "colorful",
+          "abstract"
+        ],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmYTnuTKTTnxxqjcqc3Wg3vABMbnu3V6HntMXvT15HNGLF",
         "displayUri": "",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmYTnuTKTTnxxqjcqc3Wg3vABMbnu3V6HntMXvT15HNGLF",
@@ -198,16 +214,16 @@
       "ipfsHash": "QmdiayZNm8MfMbs1Nw1UkQL7eiZTrMbssatsuveC1562Sk",
       "swaps": [
         {
-          "swap_id": "13285",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "21",
-          "xtz_per_objkt": "250000"
-        },
-        {
           "swap_id": "22830",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
           "objkt_amount": "5",
           "xtz_per_objkt": "1000000"
+        },
+        {
+          "swap_id": "13285",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "21",
+          "xtz_per_objkt": "250000"
         },
         {
           "swap_id": "22805",
@@ -246,7 +262,9 @@
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmdJv89QKNzVWRgRa2BX4dBhwjG51p341zmSh9k1N18Z3V",
         "displayUri": null,
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmdJv89QKNzVWRgRa2BX4dBhwjG51p341zmSh9k1N18Z3V",
@@ -265,16 +283,16 @@
       "ipfsHash": "QmZzVFsFZsixCRAyxUgZhEwxMfkWBXxVXFKssi9pVNwEqw",
       "swaps": [
         {
-          "swap_id": "33153",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "4",
-          "xtz_per_objkt": "250000"
-        },
-        {
           "swap_id": "33155",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
           "objkt_amount": "5",
           "xtz_per_objkt": "500000"
+        },
+        {
+          "swap_id": "33153",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "4",
+          "xtz_per_objkt": "250000"
         },
         {
           "swap_id": "33158",
@@ -298,11 +316,19 @@
       "token_info": {
         "name": "Mystic Morning",
         "description": "Original painting by Ilya Eivy, age 12",
-        "tags": ["pentagons", "mistic", "morning", "colors", "abstract"],
+        "tags": [
+          "pentagons",
+          "mistic",
+          "morning",
+          "colors",
+          "abstract"
+        ],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmdAmSpLmHDF8JinnzqKYyft1z99qTtrw5K2JZzk4QSmJg",
         "displayUri": "",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmdAmSpLmHDF8JinnzqKYyft1z99qTtrw5K2JZzk4QSmJg",
@@ -329,36 +355,40 @@
         {
           "swap_id": "22800",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "5",
+          "objkt_amount": "4",
           "xtz_per_objkt": "500000"
-        },
-        {
-          "swap_id": "33652",
-          "issuer": "tz1MYHzdPh6PiLhsQbafBAn68f2n6ujcdnJ8",
-          "objkt_amount": "1",
-          "xtz_per_objkt": "400000"
         }
       ],
       "token_id": "20214",
       "total_amount": 20,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "11",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "9",
         "tz1MhtWH3ATycAbKayhLKaWKUMFGZwYZtip2": "1",
         "tz1NBCMcKJkYq3rYz3cJd9NvVk1ESvvxrLTa": "3",
         "tz1T9gxDcKjKG3w2hYfSeePuRuucg7M89E8n": "1",
+        "tz1WeSgHesW4kmisiBwvXDp5HFj9MPy6qjnm": "1",
         "tz1Zgz5rgjTg5aaL4foP6tvbYt7VNnNPiYHj": "1",
         "tz1ZmRNg15UZVoM1wE89umMiE35Ff4ZAnKqw": "1",
         "tz1cxTJQtdGf1PaEQGTPvrDvH46uTbesPi5w": "1",
-        "tz1d8Fx1eLFTeRoWTjXvs5W8hUMZEcnb9Mvg": "1"
+        "tz1d8Fx1eLFTeRoWTjXvs5W8hUMZEcnb9Mvg": "1",
+        "tz1grbNcg6kzXA8ffWkL3SB5GLt4ij3xjFqp": "1"
       },
       "token_info": {
         "name": "Encircled",
         "description": "Colored circles, created by Ilya Eivy, at age 12; date: 2021-03-25",
-        "tags": ["circles", "color", "bloom", "pink", "abstract"],
+        "tags": [
+          "circles",
+          "color",
+          "bloom",
+          "pink",
+          "abstract"
+        ],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmWzm4uVbzCWAYFoMfmFdX9xfzGjgkLmQ79X9br1mwCR9e",
         "displayUri": "",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmWzm4uVbzCWAYFoMfmFdX9xfzGjgkLmQ79X9br1mwCR9e",
@@ -383,16 +413,16 @@
           "xtz_per_objkt": "750000"
         },
         {
-          "swap_id": "31520",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "1000000"
-        },
-        {
           "swap_id": "31514",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
           "objkt_amount": "3",
           "xtz_per_objkt": "250000"
+        },
+        {
+          "swap_id": "31520",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "5",
+          "xtz_per_objkt": "1000000"
         },
         {
           "swap_id": "31515",
@@ -417,11 +447,18 @@
       "token_info": {
         "name": "Bubble Pop",
         "description": "Original Painting by Ilya Eivy, age 12; date: 2021-04-03",
-        "tags": ["abstract", "circles", "bubbles", "pop"],
+        "tags": [
+          "abstract",
+          "circles",
+          "bubbles",
+          "pop"
+        ],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmTfRJRr3PY4NVMA86nLiQMBnSaHczBYpTTBezWskLns9R",
         "displayUri": "",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmTfRJRr3PY4NVMA86nLiQMBnSaHczBYpTTBezWskLns9R",
@@ -446,16 +483,16 @@
           "xtz_per_objkt": "500000"
         },
         {
-          "swap_id": "33132",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "750000"
-        },
-        {
           "swap_id": "33167",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
           "objkt_amount": "5",
           "xtz_per_objkt": "1000000"
+        },
+        {
+          "swap_id": "33132",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "5",
+          "xtz_per_objkt": "750000"
         },
         {
           "swap_id": "33090",
@@ -474,11 +511,19 @@
       "token_info": {
         "name": "Colorful Night",
         "description": "Original painting by Ilya Eivy, age 12",
-        "tags": ["colorful", "night", "hexagons", "abstract", "overlay"],
+        "tags": [
+          "colorful",
+          "night",
+          "hexagons",
+          "abstract",
+          "overlay"
+        ],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmSRcV7VrQACqk9AWwBxXNQprgvKjV4rSX7FwCuxCXQNK4",
         "displayUri": "",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmSRcV7VrQACqk9AWwBxXNQprgvKjV4rSX7FwCuxCXQNK4",
@@ -503,6 +548,12 @@
           "xtz_per_objkt": "250000"
         },
         {
+          "swap_id": "33145",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "5",
+          "xtz_per_objkt": "750000"
+        },
+        {
           "swap_id": "33139",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
           "objkt_amount": "5",
@@ -513,12 +564,6 @@
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
           "objkt_amount": "5",
           "xtz_per_objkt": "500000"
-        },
-        {
-          "swap_id": "33145",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "5",
-          "xtz_per_objkt": "750000"
         }
       ],
       "token_id": "26051",
@@ -530,11 +575,17 @@
       "token_info": {
         "name": "Cloudy Morning",
         "description": "Original painting by Ilya Eivy, age 12",
-        "tags": ["colors", "circles", "overlapping"],
+        "tags": [
+          "colors",
+          "circles",
+          "overlapping"
+        ],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmdC5ZuMH8fntLcFY2fqvDFuYCvK9gCm3oKQcYLCzNHjkh",
         "displayUri": "",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmdC5ZuMH8fntLcFY2fqvDFuYCvK9gCm3oKQcYLCzNHjkh",
@@ -542,6 +593,72 @@
           }
         ],
         "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "decimals": 0,
+        "isBooleanAmount": false,
+        "shouldPreferSymbol": false
+      },
+      "hDAO_balance": 0
+    },
+    {
+      "objectId": "45667",
+      "ipfsHash": "QmQUumGj9RCA54VukA4iAhTmNzQDofnasYoAVVke3bU1T4",
+      "swaps": [
+        {
+          "swap_id": "67300",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "2",
+          "xtz_per_objkt": "750000"
+        },
+        {
+          "swap_id": "67282",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "2",
+          "xtz_per_objkt": "500000"
+        },
+        {
+          "swap_id": "67289",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "1",
+          "xtz_per_objkt": "1000000"
+        },
+        {
+          "swap_id": "67281",
+          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
+          "objkt_amount": "4",
+          "xtz_per_objkt": "250000"
+        }
+      ],
+      "token_id": "45667",
+      "total_amount": 10,
+      "owners": {
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "9",
+        "tz1grbNcg6kzXA8ffWkL3SB5GLt4ij3xjFqp": "1"
+      },
+      "token_info": {
+        "name": "Snowy Mountains",
+        "description": "Geometric painting by @ilyantic using procreate",
+        "tags": [
+          "snow",
+          "mountains",
+          "trees",
+          "procreate",
+          "colors",
+          "geometry",
+          "triangles"
+        ],
+        "symbol": "OBJKT",
+        "artifactUri": "ipfs://QmZC4nuQ5mBas8r5ggNXZ5DLAjyNgV4yQE5RyJBpXVt2zg",
+        "displayUri": "",
+        "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
+        "formats": [
+          {
+            "uri": "ipfs://QmZC4nuQ5mBas8r5ggNXZ5DLAjyNgV4yQE5RyJBpXVt2zg",
+            "mimeType": "image/png"
+          }
+        ],
         "decimals": 0,
         "isBooleanAmount": false,
         "shouldPreferSymbol": false
@@ -555,22 +672,10 @@
       "ipfsHash": "QmNxWosaHGFavpT5GYrjRkXKSDSbT9YRaj9rxnzBwt4NQo",
       "swaps": [
         {
-          "swap_id": "40579",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "1",
-          "xtz_per_objkt": "250000"
-        },
-        {
           "swap_id": "40585",
           "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
           "objkt_amount": "1",
           "xtz_per_objkt": "500000"
-        },
-        {
-          "swap_id": "40592",
-          "issuer": "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY",
-          "objkt_amount": "1",
-          "xtz_per_objkt": "100000"
         },
         {
           "swap_id": "40598",
@@ -582,18 +687,28 @@
       "token_id": "29971",
       "total_amount": 5,
       "owners": {
-        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "4",
+        "KT1Hkg5qeNhfwpKW4fXvq7HGZB9z2EnmCCA9": "2",
+        "tz1RvcQAk7KN4NH9XLman243UWCR6BMCA6SN": "1",
+        "tz1WeSgHesW4kmisiBwvXDp5HFj9MPy6qjnm": "1",
         "tz1ZcuMhavGgdA2qSS3JgMummVGZ2UtGKc4h": "1"
       },
       "token_info": {
         "name": "Misty Lake",
         "description": "Original painting by Ilya Eivy; date: 2021-04-09",
-        "tags": ["misty", "lake", "tress", "dream", "colorful"],
+        "tags": [
+          "misty",
+          "lake",
+          "tress",
+          "dream",
+          "colorful"
+        ],
         "symbol": "OBJKT",
         "artifactUri": "ipfs://QmPWYGVHaqeYzPkNbrXpR5btwytDSRwLxPyqCSosAo12er",
         "displayUri": "",
         "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
-        "creators": ["tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"],
+        "creators": [
+          "tz1Rwv7Kwy6SzAZasTcZKoXDf7jf8LE8WxiY"
+        ],
         "formats": [
           {
             "uri": "ipfs://QmPWYGVHaqeYzPkNbrXpR5btwytDSRwLxPyqCSosAo12er",
